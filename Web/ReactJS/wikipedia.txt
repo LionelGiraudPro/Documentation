@@ -1,0 +1,23 @@
+React (aussi appelé React.js ou ReactJS) est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état.
+
+React est une bibliothèque qui ne gère que l'interface de l'application, considéré comme la vue dans le modèle MVC. Elle peut ainsi être utilisée avec une autre bibliothèque ou un framework MVC comme AngularJS. La bibliothèque se démarque de ses concurrents par sa flexibilité et ses performances, en travaillant avec un DOM virtuel et en ne mettant à jour le rendu dans le navigateur qu'en cas de nécessité2.
+
+La bibliothèque est utilisée notamment par Netflix3 (côté serveur uniquement depuis le 25 octobre 2017 pour gagner 50 % de performance4), Yahoo5, Airbnb6, Sony7, Atlassian8 ainsi que par les équipes de Facebook, appliquant le dogfooding sur le réseau social éponyme, Instagram ou encore WhatsApp2. À la fin de 2015, WordPress.com annonce Calypso, une interface pour les administrateurs WordPress, développée en JavaScript avec node.js et React9. 
+
+
+Historique
+
+
+React est créé par Jordan Walke, un ingénieur au sein de la société Facebook à la fin de l'année 2011. Pete Hunt, ingénieur travaillant sur Instagram est intéressé par la bibliothèque et assiste Walke afin de retirer les portions dépendantes de Facebook. Ceci permet à React d'être publié sous licence Apache 2.0 le 29 mai 2013. React s'inspire de XHP (en), une bibliothèque également développée par Facebook, permettant l'inclusion de HTML au sein de PHP10,11,12.
+
+En octobre 2014, la version 0.12.0 est publiée sous licence BSD modifiée, avec une note associée PATENTS permettant l'utilisation des brevets de Facebook associé à React13. Cependant, la licence BSD est mise à jour en avril 2015, avec la version 0.13.1, pour éviter les confusions14.
+
+Le 26 septembre 2017, React 16.0.0 a été publié sous la licence MIT15. Ce changement porte aussi sur la version 15.x avec React 15.6.216.
+Fonctionnalités
+
+
+React a été conçu comme étant une bibliothèque et non un framework MVC, comme peuvent l'être ses concurrents17. Ainsi, React encourage la création de composants réutilisables, avec en entrée des données, pouvant changer au cours du temps17.
+
+Par ailleurs, React n'utilise pas de système de templates et ne fonctionne qu'avec du JavaScript, permettant une encapsulation complète du composant au sein d'une unique classe17. Pour faciliter l'écriture de la vue, l'équipe initiale chez Facebook a développé un langage, JSX, qui permet de générer des objets Javascript avec une notation similaire à HTML18.
+DOM virtuel
+Un DOM Virtuel est une représentation du DOM en JavaScript. Au lieu de générer le DOM lui-même comme avec un langage de templating, c'est-à-dire au lieu de dialoguer avec les API du navigateur pour construire le DOM, on ne génère qu'une arborescence d'objets JavaScript en mémoire19.
